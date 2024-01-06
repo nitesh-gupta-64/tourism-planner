@@ -33,3 +33,15 @@ body
 {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
 }
+
+@media (max-width: 600px) 
+{
+    .title 
+    {
+        border: 7px dashed #0111a0;
+        border-radius: 20px;
+        font-size: 1.7rem;
+        margin: 6vh;
+        padding: 1vh 5vw;
+    }
+}

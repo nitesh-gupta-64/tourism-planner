@@ -4,7 +4,7 @@ function Tours({tours, removeTour})
 {
     return (
         <div className="container flex items-center justify-center flex-col">
-            <div>
+            <div className="flex items-center justify-center w-screen">
                 <h2 className="title font-black">Plan With Love</h2>
             </div>
             <div className="cards flex justify-center flex-wrap max-w-[1300px] mx-auto">

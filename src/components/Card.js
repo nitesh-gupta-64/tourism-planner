@@ -11,8 +11,8 @@ function Card({id, image, info, price, name, removeTour})
     }
 
     return (
-    <div className="card w-[400px] h-max m-4 p-4 flex flex-col rounded-[10px] items-center">
-        <img src={image} className="image w-[380px] aspect-square object-cover"></img>
+    <div className="card w-[400px] max-w-[900%] h-max m-4 p-4 flex flex-col rounded-[10px] items-center">
+        <img src={image} className="image w-[380px] aspect-square object-cover" alt=""></img>
 
         <div className="tour-info  my-[20px] mx-[5px]">
             <div className="tour-details">
