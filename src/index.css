@@ -41,8 +41,8 @@
         border: 7px dashed #0111a0;
         border-radius: 20px;
         font-size: 1.7rem;
-        /* margin: 6vh;
-        padding: 1vh 5vw; */
+        margin: 6vh;
+        padding: 1vh 5vw;
     }
 
     .card
