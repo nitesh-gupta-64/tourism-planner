@@ -26,7 +26,7 @@ const App = () => {
   }
 
   return (
-    <div className="h-screen w-screen">
+    <div className="wrapper">
 
       <Tours tours={tours} removeTour={removeTour}></Tours>
 
